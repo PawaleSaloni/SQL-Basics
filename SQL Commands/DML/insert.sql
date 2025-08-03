@@ -1,11 +1,3 @@
--- Create Employees Table
-CREATE TABLE employees (
-    emp_id INT PRIMARY KEY,
-    emp_name VARCHAR(50),
-    dept_id INT,
-    designation VARCHAR(50),
-    salary INT;
-);
 
 -- Insert Sample data
 INSERT INTO employees (emp_id, emp_name, dept_id, designation, salary) VALUES
